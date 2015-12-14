@@ -16,6 +16,8 @@
 		ED95D8E01C1C89800096D607 /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95D8DF1C1C89800096D607 /* AlgorhythmTests.m */; };
 		ED95D8EB1C1C89800096D607 /* AlgorhythmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95D8EA1C1C89800096D607 /* AlgorhythmUITests.m */; };
 		ED95D8FA1C1C91FC0096D607 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95D8F91C1C91FC0096D607 /* PlaylistDetailViewController.m */; };
+		ED95D8FD1C1E08120096D607 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95D8FC1C1E08120096D607 /* MusicLibrary.m */; };
+		ED95D9001C1E105F0096D607 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95D8FF1C1E105F0096D607 /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		ED95D8EC1C1C89800096D607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED95D8F81C1C91FC0096D607 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		ED95D8F91C1C91FC0096D607 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		ED95D8FB1C1E08120096D607 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		ED95D8FC1C1E08120096D607 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		ED95D8FE1C1E105F0096D607 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		ED95D8FF1C1E105F0096D607 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 			children = (
 				ED95D8C81C1C89800096D607 /* AppDelegate.h */,
 				ED95D8C91C1C89800096D607 /* AppDelegate.m */,
+				ED95D8FB1C1E08120096D607 /* MusicLibrary.h */,
+				ED95D8FC1C1E08120096D607 /* MusicLibrary.m */,
+				ED95D8FE1C1E105F0096D607 /* Playlist.h */,
+				ED95D8FF1C1E105F0096D607 /* Playlist.m */,
 				ED95D8CB1C1C89800096D607 /* PlaylistMasterViewController.h */,
 				ED95D8CC1C1C89800096D607 /* PlaylistMasterViewController.m */,
 				ED95D8F81C1C91FC0096D607 /* PlaylistDetailViewController.h */,
@@ -276,9 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED95D8CD1C1C89800096D607 /* PlaylistMasterViewController.m in Sources */,
+				ED95D9001C1E105F0096D607 /* Playlist.m in Sources */,
 				ED95D8FA1C1C91FC0096D607 /* PlaylistDetailViewController.m in Sources */,
 				ED95D8CA1C1C89800096D607 /* AppDelegate.m in Sources */,
 				ED95D8C71C1C89800096D607 /* main.m in Sources */,
+				ED95D8FD1C1E08120096D607 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +514,7 @@
 				ED95D8F11C1C89800096D607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED95D8F21C1C89800096D607 /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				ED95D8F41C1C89800096D607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED95D8F51C1C89800096D607 /* Build configuration list for PBXNativeTarget "AlgorhythmUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				ED95D8F71C1C89800096D607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
